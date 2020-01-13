@@ -1,5 +1,7 @@
-package clases;
+package clases.Puzzle;
 
+import clases.Menu;
+import clases.Puzzle.Puzzle;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -8,10 +10,6 @@ import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-/**
- *
- * @author Omar Serrano Govea
- */
 public class JDialog_GameOver extends JDialog implements ActionListener {
 
     private JButton reiniciar, salir;
@@ -66,5 +64,4 @@ public class JDialog_GameOver extends JDialog implements ActionListener {
             frame.dispose();
         }
     }
-
 }

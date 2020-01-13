@@ -1,5 +1,8 @@
 package clases;
 
+import clases.Memorama.Accion;
+import clases.Buscaminas.MainBuscaMinas;
+import clases.Puzzle.Puzzle;
 import java.applet.AudioClip;
 import java.awt.Color;
 import java.awt.Font;
@@ -13,11 +16,6 @@ import javax.swing.JLabel;
 import javax.swing.border.LineBorder;
 import javax.swing.border.TitledBorder;
 
-/**
- *
- *
- * @author Omar Serrano Govea
- */
 public class Menu implements MouseListener {
 
     private JFrame frame;
@@ -49,7 +47,6 @@ public class Menu implements MouseListener {
         frame.setIconImage(new ImageIcon(getClass().getResource("/material/xbox_icon.png")).getImage());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null);
-
     }
 
     private void componentes() {

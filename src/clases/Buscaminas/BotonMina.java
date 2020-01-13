@@ -1,4 +1,4 @@
-package clases;
+package clases.Buscaminas;
 
 import java.awt.Color;
 import java.awt.Font;

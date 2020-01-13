@@ -1,5 +1,6 @@
-package clases;
+package clases.Memorama;
 
+import clases.Menu;
 import java.applet.AudioClip;
 import java.awt.Color;
 import java.awt.FlowLayout;
@@ -352,7 +353,5 @@ public class Accion implements Runnable {
                 }
             }
         }
-
     }
-
 }

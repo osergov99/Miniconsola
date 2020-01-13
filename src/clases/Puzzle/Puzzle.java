@@ -1,5 +1,6 @@
-package clases;
+package clases.Puzzle;
 
+import clases.Menu;
 import java.applet.AudioClip;
 import java.awt.Color;
 import java.awt.Font;
@@ -32,10 +33,6 @@ import javax.swing.JRadioButton;
 import javax.swing.JToolBar;
 import javax.swing.SwingConstants;
 
-/**
- *
- * @author Omar Serrano Govea
- */
 public class Puzzle implements ActionListener {
 
     private JDialog vistaPrevia;
@@ -123,7 +120,7 @@ public class Puzzle implements ActionListener {
         play.addActionListener(this);
         toolBar_vistaprevia.add(play);
 
-        chooser = new JFileChooser("C:\\Users\\omar_\\Desktop");
+        chooser = new JFileChooser();
     }
 
     private void seleccionarImagen() {
@@ -240,7 +237,6 @@ public class Puzzle implements ActionListener {
         panel2.setBounds(0, 30, 380, 380);
         panel2.setLayout(null);
         frame.add(panel2);
-
     }
 
     private boolean Won() {

@@ -1,5 +1,6 @@
-package clases;
+package clases.Buscaminas;
 
+import clases.Menu;
 import java.applet.AudioClip;
 import java.awt.Color;
 import java.awt.Font;

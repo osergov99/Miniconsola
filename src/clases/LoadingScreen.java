@@ -9,10 +9,6 @@ import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-/**
- *
- * @author Omar Serrano Govea
- */
 public class LoadingScreen {
 
     private JFrame frame;
@@ -84,5 +80,4 @@ public class LoadingScreen {
         intro_gif.setIcon(icon_intro);
         frame.add(intro_gif);
     }
-
 }

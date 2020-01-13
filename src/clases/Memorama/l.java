@@ -1,4 +1,4 @@
-package clases;
+package clases.Memorama;
 
 import java.util.Random;
 
